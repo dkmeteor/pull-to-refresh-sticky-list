@@ -3,12 +3,25 @@ int attr isDrawingListUnderStickyHeader 0x7f010001
 int dimen activity_horizontal_margin 0x7f040000
 int dimen activity_vertical_margin 0x7f040001
 int drawable ic_launcher 0x7f020000
-int id action_settings 0x7f080000
+int drawable ic_pulltorefresh_arrow 0x7f020001
+int drawable icon 0x7f020002
+int drawable pull_to_refresh_header_background 0x7f020003
+int id action_settings 0x7f080005
+int id pull_to_refresh_header 0x7f080000
+int id pull_to_refresh_image 0x7f080002
+int id pull_to_refresh_progress 0x7f080001
+int id pull_to_refresh_text 0x7f080003
+int id pull_to_refresh_updated_at 0x7f080004
 int layout activity_main 0x7f030000
+int layout pull_to_refresh_header 0x7f030001
 int menu main 0x7f070000
 int string action_settings 0x7f050001
 int string app_name 0x7f050000
 int string hello_world 0x7f050002
+int string pull_to_refresh_pull_label 0x7f050003
+int string pull_to_refresh_refreshing_label 0x7f050005
+int string pull_to_refresh_release_label 0x7f050004
+int string pull_to_refresh_tap_label 0x7f050006
 int style AppBaseTheme 0x7f060000
 int style AppTheme 0x7f060001
 int[] styleable StickyListHeadersListView { 0x0101007f, 0x010100d5, 0x010100d6, 0x010100d7, 0x010100d8, 0x010100d9, 0x010100de, 0x010100e0, 0x010100eb, 0x010100fb, 0x010100fc, 0x010100fe, 0x01010101, 0x01010129, 0x0101012a, 0x0101012b, 0x01010226, 0x010102c1, 0x01010335, 0x010103a5, 0x7f010000, 0x7f010001 }

@@ -4,6 +4,8 @@ import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
 
+import se.emilsjolander.stickylistheaders.pulltorefresh.PullToRefreshListView;
+
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Rect;
@@ -12,7 +14,7 @@ import android.view.View;
 import android.widget.AbsListView;
 import android.widget.ListView;
 
-class WrapperViewList extends ListView {
+class WrapperViewList extends PullToRefreshListView {
 
 	interface LifeCycleListener {
 		void onDispatchDrawOccurred(Canvas canvas);
