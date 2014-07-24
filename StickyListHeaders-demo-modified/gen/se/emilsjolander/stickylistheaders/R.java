@@ -8,12 +8,12 @@ package se.emilsjolander.stickylistheaders;
 
 public final class R {
 	public static final class attr {
-		public static final int hasStickyHeaders = 0x7f010000;
-		public static final int isDrawingListUnderStickyHeader = 0x7f010001;
+		public static final int hasStickyHeaders = 0x7f01006a;
+		public static final int isDrawingListUnderStickyHeader = 0x7f01006b;
 	}
 	public static final class dimen {
-		public static final int activity_horizontal_margin = 0x7f050000;
-		public static final int activity_vertical_margin = 0x7f050001;
+		public static final int activity_horizontal_margin = 0x7f080011;
+		public static final int activity_vertical_margin = 0x7f080012;
 	}
 	public static final class drawable {
 		public static final int ic_launcher = 0x7f020059;
@@ -22,12 +22,12 @@ public final class R {
 		public static final int pull_to_refresh_header_background = 0x7f02005c;
 	}
 	public static final class id {
-		public static final int action_settings = 0x7f08004f;
-		public static final int pull_to_refresh_header = 0x7f080049;
-		public static final int pull_to_refresh_image = 0x7f08004b;
-		public static final int pull_to_refresh_progress = 0x7f08004a;
-		public static final int pull_to_refresh_text = 0x7f08004c;
-		public static final int pull_to_refresh_updated_at = 0x7f08004d;
+		public static final int action_settings = 0x7f05004f;
+		public static final int pull_to_refresh_header = 0x7f050049;
+		public static final int pull_to_refresh_image = 0x7f05004b;
+		public static final int pull_to_refresh_progress = 0x7f05004a;
+		public static final int pull_to_refresh_text = 0x7f05004c;
+		public static final int pull_to_refresh_updated_at = 0x7f05004d;
 	}
 	public static final class layout {
 		public static final int activity_main = 0x7f030017;
@@ -37,20 +37,20 @@ public final class R {
 		public static final int main = 0x7f0d0000;
 	}
 	public static final class string {
-		public static final int action_settings = 0x7f060001;
-		public static final int app_name = 0x7f060000;
-		public static final int hello_world = 0x7f060002;
-		public static final int pull_to_refresh_pull_label = 0x7f060003;
-		public static final int pull_to_refresh_refreshing_label = 0x7f060005;
-		public static final int pull_to_refresh_release_label = 0x7f060004;
-		public static final int pull_to_refresh_tap_label = 0x7f060006;
+		public static final int action_settings = 0x7f0a000e;
+		public static final int app_name = 0x7f0a000d;
+		public static final int hello_world = 0x7f0a000f;
+		public static final int pull_to_refresh_pull_label = 0x7f0a0010;
+		public static final int pull_to_refresh_refreshing_label = 0x7f0a0012;
+		public static final int pull_to_refresh_release_label = 0x7f0a0011;
+		public static final int pull_to_refresh_tap_label = 0x7f0a0013;
 	}
 	public static final class style {
-		public static final int AppBaseTheme = 0x7f070000;
-		public static final int AppTheme = 0x7f070001;
+		public static final int AppBaseTheme = 0x7f0b0083;
+		public static final int AppTheme = 0x7f0b0084;
 	}
 	public static final class styleable {
-		public static final int[] StickyListHeadersListView = { 0x0101007f, 0x010100d5, 0x010100d6, 0x010100d7, 0x010100d8, 0x010100d9, 0x010100de, 0x010100e0, 0x010100eb, 0x010100fb, 0x010100fc, 0x010100fe, 0x01010101, 0x01010129, 0x0101012a, 0x0101012b, 0x01010226, 0x010102c1, 0x01010335, 0x010103a5, 0x7f010000, 0x7f010001 };
+		public static final int[] StickyListHeadersListView = { 0x0101007f, 0x010100d5, 0x010100d6, 0x010100d7, 0x010100d8, 0x010100d9, 0x010100de, 0x010100e0, 0x010100eb, 0x010100fb, 0x010100fc, 0x010100fe, 0x01010101, 0x01010129, 0x0101012a, 0x0101012b, 0x01010226, 0x010102c1, 0x01010335, 0x010103a5, 0x7f01006a, 0x7f01006b };
 		public static final int StickyListHeadersListView_android_cacheColorHint = 12;
 		public static final int StickyListHeadersListView_android_choiceMode = 15;
 		public static final int StickyListHeadersListView_android_clipToPadding = 8;
