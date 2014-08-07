@@ -91,14 +91,14 @@ public class TestBaseAdapter extends BaseAdapter implements
     public View getHeaderView(int position, View convertView, ViewGroup parent) {
         HeaderViewHolder holder;
 
-        if (convertView == null) {
+//        if (convertView == null) {
             holder = new HeaderViewHolder();
             convertView = mInflater.inflate(R.layout.header, parent, false);
             holder.text = (TextView) convertView.findViewById(R.id.text1);
             convertView.setTag(holder);
-        } else {
-            holder = (HeaderViewHolder) convertView.getTag();
-        }
+//        } else {
+//            holder = (HeaderViewHolder) convertView.getTag();
+//        }
 
         // set header text as first char in name
         CharSequence headerChar = mCountries[position].subSequence(0, 1);
